@@ -3,10 +3,42 @@
   position: relative;
 }
 .hero_section img {
-  border-radius: 15px;
+  border-radius: 15%;
 }
 .hero_text_div {
   position: absolute;
   top: 30px;
-  right: 60px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.hero_text_div h1 {
+  font-size: 42px;
+}
+.hero_text_div h3 {
+  font-size: 30px;
+}
+.hero_text_div p {
+  font-size: 24px;
+}
+.hero_lower_text {
+  position: absolute;
+  bottom: 30px;
+  left: 200px;
+  display: flex;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+}
+.services p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.services li {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
 }

@@ -14,13 +14,17 @@ const TheHeader = (): JSX.Element => {
   return (
     <header>
       <nav className={styles.navbar}>
-        <div className={styles.image_div}>
+        <motion.div
+          initial={{ x: -1000, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          className={styles.image_div}
+        >
           <Image
             onClick={navigationHandler}
             src={bananaLogo}
             alt="Company Logo"
           />
-        </div>
+        </motion.div>
         <div className={styles.link_div}>
           <Link href="/pricing">Pricing</Link>
           <Link href="/about">About Us</Link>

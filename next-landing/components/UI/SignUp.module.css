@@ -1,0 +1,101 @@
+.signup_section {
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+}
+.outer_div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 450px;
+  color: orange;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 15px;
+  z-index: 1;
+  gap: 10px;
+}
+.outer_div button {
+  border: 2px solid orange;
+  color: orange;
+  background-color: #222;
+  cursor: pointer;
+  width: 40%;
+  align-self: center;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.inner_div {
+  width: 40%;
+  height: 450px;
+  background-color: rgba(224, 146, 0, 0.63);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+.inner_div form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+.inner_div button {
+  align-self: center;
+  border: 2px solid #222;
+  padding: 10px 20px;
+  background-color: orange;
+  width: 30%;
+
+  font-size: 18px;
+  cursor: pointer;
+}
+.control {
+  display: flex;
+  width: 100%;
+
+  justify-content: flex-end;
+  gap: 30px;
+}
+.control label {
+  font-size: 20px;
+}
+.control input {
+  border-radius: 5px;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+.inner_div form h2 {
+  align-self: center;
+}
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ff5f74;
+}
+.err {
+  font-size: 20px;
+  color: red;
+  align-self: center;
+}
+.success_div {
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.success_div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

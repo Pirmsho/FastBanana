@@ -1,0 +1,83 @@
+.service_section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  height: 80vh;
+  padding-top: 30px;
+}
+.service_text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.service_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.service_list li {
+  font-size: 20px;
+}
+.service_text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+.service_text h3 {
+  font-size: 20px;
+  margin: 0;
+}
+.image_div {
+  width: 60%;
+}
+.image_div img {
+  border-radius: 15px;
+}
+.service_section a {
+  align-self: center;
+  padding: 15px 30px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  overflow: hidden;
+  color: transparent;
+  transition: 0.5s all;
+  border-radius: 3px;
+}
+.service_section a::before {
+  content: "See Our Prices!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.service_section a::after {
+  content: "See Our Prices!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  transform: translate(-100%, 100%);
+}
+.service_section a:hover::before {
+  transform: translate(100%, -100%);
+}
+.service_section a:hover::after {
+  transform: translate(0, 0);
+}
