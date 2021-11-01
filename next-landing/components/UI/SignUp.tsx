@@ -50,7 +50,7 @@ const SignUp = () => {
   return (
     <section className={styles.signup_section}>
       {!formSubmitted && (
-        <motion.div animate={control} className={styles.outer_div}>
+        <motion.div drag animate={control} className={styles.outer_div}>
           <h1>
             Sign Up Right Now For Exclusive 20% off on Your First Consultation!
           </h1>

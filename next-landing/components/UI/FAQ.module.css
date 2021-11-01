@@ -1,0 +1,23 @@
+.faq_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.faq_section h2 {
+  font-size: 30px;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+.accordion h3 {
+  cursor: pointer;
+  font-size: 24px;
+}
+.accordion p {
+  font-size: 20px;
+}

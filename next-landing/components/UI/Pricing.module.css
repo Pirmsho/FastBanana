@@ -1,0 +1,39 @@
+.price_section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.price_div {
+  display: flex;
+  justify-content: space-around;
+}
+.price_component {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  gap: 20px;
+  background-color: orange;
+  border-radius: 15px;
+  padding: 15px;
+}
+.price_component h3 {
+  font-size: 26px;
+}
+.price_component p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.price_features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.price_component_gold {
+  color: orange;
+  background-color: #222;
+}

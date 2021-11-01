@@ -2,6 +2,7 @@ import React from "react";
 import TheHeader from "./TheHeader";
 import styles from "./Layout.module.css";
 import { motion } from "framer-motion";
+import TheFooter from "./TheFooter";
 
 interface ChildrenProp {
   children: React.ReactNode;
@@ -24,6 +25,7 @@ const Layout = (props: ChildrenProp): JSX.Element => {
       >
         {props.children}
       </motion.main>
+      <TheFooter />
     </div>
   );
 };

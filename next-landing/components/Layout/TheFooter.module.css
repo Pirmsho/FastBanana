@@ -1,0 +1,52 @@
+.footer {
+  margin-top: 100px;
+  padding: 25px;
+  display: flex;
+  border-top: dashed;
+  height: 40vh;
+}
+.logo_div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo_div img {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.newsletter label {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.newsletter input {
+  border-radius: 5px;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+.newsletter button {
+  border: 2px black solid;
+  border-radius: 3px;
+  width: 20%;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.newsletter button:hover {
+  color: black;
+  background-color: orange;
+  transform: scale(1.05);
+}
+.logo_div img:hover {
+  transform: scale(1.2);
+}

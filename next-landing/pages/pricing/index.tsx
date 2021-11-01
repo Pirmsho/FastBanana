@@ -1,7 +1,14 @@
 import React from "react";
+import FAQ from "../../components/UI/FAQ";
+import Pricing from "../../components/UI/Pricing";
 
 const index = () => {
-  return <div>Pricing Page</div>;
+  return (
+    <main>
+      <Pricing />
+      <FAQ />
+    </main>
+  );
 };
 
 export default index;
